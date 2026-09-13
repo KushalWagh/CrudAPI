@@ -19,4 +19,4 @@ class ReportList(generics.ListCreateAPIView):
 
 class ReportDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Report
-    serializer_class = ReportSerializer
+    serializer_class = ReportSerializer tetshf
